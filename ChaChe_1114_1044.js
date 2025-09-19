@@ -14,7 +14,8 @@ this.ChangeCheckbox_1114 = function (itemId) {
     // RIND 7 = 61_1114_61767_7_1
     // RIND 8 = 61_1114_61761_8_1
     // RIND 9 = 61_1114_61762_9_1
-    //A little modification
+    // A little modification
+    // If rind 0   is cheched TIP2 check becose if rind is rind 0 is check obligatory must be check TIP2 or TIP3 
     // 1 rule IF rind = 0 is checked, all other rind options are unchecked (1,2,3,4,5,6,7,8,9)
     // 2 rule if rind = 0 is checked  and  TIP2 is checked   unchecked   TIP3
     // 3 rule if rind = 0 is checked  and  TIP3 is checked   unchecked   TIP2
